@@ -95,6 +95,21 @@ section {
   background-color: #f5f5f5;
 }
 
+.features-box-1 i {
+  font-size: 60px;
+  color: #f1c40f;
+}
+
+.features-box-2 i {
+  font-size: 60px;
+  color: #e74c3c;
+}
+
+.features-box-3 i {
+  font-size: 60px;
+  color: #2980b9;
+}
+
 img::selection {
   color: white;
   background: transparent;
@@ -285,13 +300,19 @@ header.topheader .header-content .header-content-inner p {
 
 .btn {
   text-transform: uppercase;
-  color: grey;
+  color: black;
   border: 1px solid;
   margin-right: 5px;
 }
 
 .btn-xl {
   padding: 15px 30px;
+  margin-top: 120px;
+  color: white;
+}
+
+.topheader a:hover {
+  color: #bdc3c7;
 }
 
 .btn-amazon {
@@ -318,7 +339,6 @@ header.topheader .header-content .header-content-inner p {
 
 .btn-transparent {}
 
-
 .btn-product {
   font-size: 12px;
 }
@@ -328,7 +348,12 @@ header.topheader .header-content .header-content-inner p {
   padding-right: 30px;
 }
 
+.product h3 {
+  font-size: 20px;
+}
+
 .product-outer {
+  padding-top: 50px;
   padding-left: -20px !important;
   padding-right: -5px !important;
 }
@@ -343,4 +368,124 @@ header.topheader .header-content .header-content-inner p {
   font-size: 1.75rem;
   font-weight: normal;
   margin-left: auto;
+}
+
+.price {
+  font-weight: bold;
+  font-size: 20px !important;
+  position: absolute;
+  padding-right: 30px;
+  right: 0px;
+}
+
+.price p {
+  font-size: 20px;
+}
+
+/* ------ Testimonals ------ */
+
+.testimonial-description {
+  margin-top: 50px;
+  border-radius: 5px;
+  padding: 30px 30px 20px 30px;
+  position: relative;
+  background-color: #ffffff;
+  box-shadow: 1px 1px 2px rgba(222, 222, 222, 0.32);
+}
+
+.testimonial-description:after {
+  content: "";
+  bottom: -15px;
+  left: 50px;
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-top: 15px solid #fff;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+}
+
+.testimonial-description p {
+  line-height: 24px;
+  font-size: 14px;
+  font-style: italic;
+}
+
+.testimonial-user-thumb img {
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+}
+
+.testimonial-user-name {
+  margin-bottom: 0px;
+}
+
+.user-thumb, .user-text {
+  display: inline-block;
+  vertical-align: bottom;
+}
+
+.user-thumb {
+  margin-right: 15px;
+}
+
+.testimonial-user-info {
+  padding-left: 30px;
+  margin-top: 35px;
+}
+
+.user-position {
+  font-weight: 400;
+  display: block;
+}
+
+.faq-list {
+  margin: 0 0 .75em;
+}
+
+.faq-list .col-sm-6 {
+  margin-bottom: 2.25em;
+}
+
+.faq h4 {
+  font-size: 22px;
+  margin-top: 0;
+}
+
+.faq-support {
+  background-color: #31aff5;
+  padding: 3.75em 0;
+}
+
+.faq-support h5, .faq-support p {
+  color: #fff;
+}
+
+.faq-support h5 {
+  font-weight: 700;
+  font-size: 14px;
+  text-transform: uppercase;
+  margin-top: 0;
+  letter-spacing: .2px;
+}
+
+.faq-support p {
+  font-size: 18px;
+}
+
+.faq-support .btn {
+  display: block;
+  width: 50%;
+  margin: auto;
+  padding: 1.25em 0;
+}
+
+.faq-support a:first-of-type {
+  margin: 2.25em auto 20px;
+}
+
+.faq-support a.btn i {
+  padding-right: .5em;
+  font-size: 19px;
 }
