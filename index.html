@@ -91,7 +91,7 @@
         <div class="col-sm-4">
           <div class="features-box-1">
             <i class="ion-ios-star"></i>
-            <h4>Profiqualit&auml;t</h4>
+            <h4 class="features-box-heading">Profiqualit&auml;t</h4>
             <p class="text-muted">Profitieren Sie von einer herausragenden Qualit&auml;t und hoher Langlebigkeit!</p>
           </div>
         </div>
@@ -99,7 +99,7 @@
         <div class="col-sm-4">
           <div class="features-box-2">
             <i class="ion-ios-cart"></i>
-            <h4>Schnelle Lieferung</h4>
+            <h4 class="features-box-heading">Schnelle Lieferung</h4>
             <p class="text-muted">Vorräte aufgebraucht? Durch schnelle Lieferzeiten kein Problem! </p>
           </div>
         </div>
@@ -107,7 +107,7 @@
         <div class="col-sm-4">
           <div class="features-box-3">
             <i class="ion-ios-chatboxes"></i>
-            <h4>Kundenservice</h4>
+            <h4 class="features-box-heading">Kundenservice</h4>
             <p class="text-muted">Sie haben Fragen zu einem Produkt oder einer Bestellung? Bei uns erhalten Sie schnell eine Antwort!</p>
           </div>
         </div>
@@ -133,7 +133,9 @@
                 <img src="img/product-img/001.png" height="210px" />
               </div>
               <div class="row description">
-                <div class="price"><p>5,59€</p></div>
+                <div class="price">
+                  <p>5,59€</p>
+                </div>
                 <p>Menge: 25 St&uuml;ck</p>
               </div>
               <div class="row product-footer">
@@ -150,7 +152,9 @@
                 <img src="img/product-img/002.png" height="210px" />
               </div>
               <div class="row description">
-                <div class="price"><p>5,59€</p></div>
+                <div class="price">
+                  <p>5,59€</p>
+                </div>
                 <p>Menge: 25 St&uuml;ck</p>
               </div>
               <div class="row product-footer">
@@ -167,7 +171,9 @@
                 <img src="img/product-img/003.png" height="210px" />
               </div>
               <div class="row description">
-                <div class="price"><p>5,59€</p></div>
+                <div class="price">
+                  <p>5,59€</p>
+                </div>
                 <p>Menge: 25 St&uuml;ck</p>
               </div>
               <div class="row product-footer">
@@ -184,7 +190,9 @@
                 <img src="img/product-img/004.png" height="210px" />
               </div>
               <div class="row description">
-                <div class="price"><p>5,59€</p></div>
+                <div class="price">
+                  <p>5,59€</p>
+                </div>
                 <p>Menge: 25 St&uuml;ck</p>
               </div>
               <div class="row product-footer">
@@ -306,55 +314,82 @@
     </div>
   </section>
 
-  <section class="" id="contact">
+
+  <section class="bg-dark" id="faq">
     <div class="container">
       <div class="row">
         <div class="col-lg-8 mx-auto text-center">
-          <h2 class="section-heading">Kontakt</h2>
-          <hr class="dark" />
+          <h2 class="section-heading">FAQ</h2>
+          <hr class="light" />
+
+          <div id="faqAccordion" data-children=".item">
+            <div class="item">
+              <a class="question" data-toggle="collapse" data-parent="#faqAccordion" href="#faqAccordion1" aria-expanded="false" aria-controls="faqAccordion1">
+                Sie haben keine Rechnung erhalten?
+              </a>
+              <div id="faqAccordion1" class="collapse" role="tabpanel">
+                <p class="answer">Bitte schauen Sie zuerst im SPAM-Verzeichnis Ihres E-Mail-Providers nach. Sollte keine E-Mail angekommen sein, wenden Sie sich bitte &uuml;ber das Kontaktformular an uns.</p>
+              </div>
+            </div>
+
+            <div class="item">
+              <a class="question" data-toggle="collapse" data-parent="#faqAccordion" href="#faqAccordion2" aria-expanded="false" aria-controls="faqAccordion2">
+                Wo ist meine Bestellung?
+              </a>
+              <div id="faqAccordion2" class="collapse" role="tabpanel">
+                <p class="answer">
+                  Den aktuellen Status Ihrer Bestellung k&ouml;nnen Sie über die Sendungsverfolgung pr&uuml;fen.
+                  <br /><br />
+                  <b>Für Amazon Prime Kunden:</b> Bitte wenden Sie sich an den Amazon Kundendienst.<br />
+                  <b>Für eBay Kunden:</b> Bitte wenden Sie sich über das Kontaktformular an uns.
+                  </p>
+              </div>
+            </div>
+
+            <div class="item">
+              <a class="question" data-toggle="collapse" data-parent="#faqAccordion" href="#faqAccordion3" aria-expanded="false" aria-controls="faqAccordion3">
+                Sie ben&ouml;tigen Hilfe bei der Verwendung eines Produktes?
+              </a>
+              <div id="faqAccordion3" class="collapse" role="tabpanel">
+                <p class="answer">Wenden Sie sich bitte &uuml;ber das Kontaktformular an uns.</p>
+              </div>
+            </div>
+
+            <div class="item">
+              <a class="question" data-toggle="collapse" data-parent="#faqAccordion" href="#faqAccordion4" aria-expanded="false" aria-controls="faqAccordion4">
+                Ihre Bestellung ist defekt?
+              </a>
+              <div id="faqAccordion4" class="collapse" role="tabpanel">
+                <p class="answer">Wenden Sie sich bitte &uuml;ber das Kontaktformular an uns.</p>
+              </div>
+            </div>
+
+
+          </div>
+
         </div>
       </div>
     </div>
   </section>
 
-  <section class="faq section-spacing" id="faq">
-    <div class="container">
-      <header class="section-header text-center">
-        <h2>FAQ</h2>
-        <h3>Common questions and answers</h3>
-      </header>
-      <div class="row">
-        <div class="col-md-8">
-          <ul class="row faq-list">
-            <li class="col-sm-6">
-              <h4>Vestibulum sapien sapien?</h4>
-              <p>Finibus nunc quis turpis quis leo volutpat id sit amet orci. Etiam nec diam tincidunt, consequat diam suscipit metus.</p>
-            </li>
-            <li class="col-sm-6">
-              <h4>Etiam porttitor sollicitudin?</h4>
-              <p>Aliquam feugiat nibh sed interdum pellentesque. Nulla et porttitor erat non commodo pellentesque orci.</p>
-            </li>
 
-            <!--Use clearfix after every 12 columns-->
-            <li class="clearfix hidden-xs"></li>
-            <li class="col-sm-6">
-              <h4>Nulla fermentum aliquet?</h4>
-              <p>Curabitur dolor felis, lobortis eu purus in, pretium bibendum purus. Nulla quis posuere mi odio in convallis fringilla.</p>
-            </li>
-            <li class="col-sm-6">
-              <h4>Curabitur dolor felis?</h4>
-              <p>Pellentesque vestibulum, mi a viverra maximus, eros lacus rutrum leo, eget cursus sem neque at purus.</p>
-            </li>
-          </ul>
-        </div>
-        <div class="col-md-4">
-          <div class="faq-support text-center">
-            <h5>CAN'T FIND A SUITABLE ANSWER?</h5>
-            <p>Ask our Support team</p>
-            <a href="" class="btn btn-secondary" data-toggle="modal" data-target="#modal-contact-form"><i class="fa fa-envelope"></i>EMAIL US</a> <a href="" class="btn btn-secondary"><i class="fa fa-twitter"></i>TWEET US</a></div>
+  <section class="" id="contact">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 mx-auto text-center">
+          <h2 class="section-heading">Kontakt</h2>
+
+
         </div>
       </div>
     </div>
+  </section>
+
+
+
+
+
+  </div>
   </section>
 
 
