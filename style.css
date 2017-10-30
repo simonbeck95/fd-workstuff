@@ -307,12 +307,25 @@ header.topheader .header-content .header-content-inner p {
   color: black;
   border: 1px solid;
   margin-right: 5px;
+  background-color: transparent;
+}
+
+.btn a:hover {
+  color: #3498db;
+}
+
+.form-group button:hover {
+  color: #3498db;
 }
 
 .btn-xl {
   padding: 15px 30px;
   margin-top: 120px;
   color: white;
+}
+
+.signup .btn {
+  border: 1px solid #ced4da;
 }
 
 .topheader a:hover {
