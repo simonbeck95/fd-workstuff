@@ -1,3 +1,8 @@
+/* TODO #e6e9ed Überschrift auf #434a54 Grau Hintergrund
+#aab2bd Schrift auf #434a54 Grau Hintergrund
+*/
+
+
 body, html {
   width: 100%;
   height: 100%;
@@ -38,6 +43,12 @@ p {
 .bg-dark {
   color: white;
   background-color: #323232 !important;
+}
+
+.bg-dark2 {
+  color: #e6e9ed;
+  background-color: #434a54;
+
 }
 
 .bg-light {
@@ -424,12 +435,13 @@ header.topheader .header-content .header-content-inner p {
 
 .question {
   text-transform: uppercase;
+  color: #e6e9ed;
 }
 
 .answer {
   font-size: 16px;
   margin-top: 20px;
-  color: #ecf0f1!important;
+  color: #aab2bd!important;
 }
 
 .item {
