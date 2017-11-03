@@ -1,4 +1,5 @@
-<!DOCTYPE html> <!-- TODO Code aufräumen -->
+<!DOCTYPE html>
+<!-- TODO Code aufräumen -->
 <html>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -14,12 +15,9 @@
 <body>
   <!-- Navigation -->
   <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
-    <div class="container">
-      <a class="navbar-brand js-scroll-trigger" href="#page-top">
-        <!-- TODO Beim Scrollen kleiner werden -->
-        <!-- TODO Farbe beim Scrollen ändern -->
-      <img src="img/logo.png" height="70" alt="">
-    </a>
+    <div class="container navbar-brand">
+      <img id="brand-img" />
+      </a>
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -66,21 +64,21 @@
         <div class="col-lg-8 mx-auto text-center">
           <h2 class="section-heading">Angebot des Monats</h2>
         </div>
-        <div class="row">
-          <div class="col-md-6 img-sale">
-            <img src="img/Angebot.png" height="400px">
-          </div>
-          <div class="col-md-6 sale">
-            <h3>Dreieicksschleifer</h3>
-            <p>Unsere Dreiecksschleifer &uuml;berzeugen durch ihre hohe Qualit&auml;t und Langlebigkeit. Somit sind diese optimal für den professionellen Einsatz geeigent!</p>
-            <ul>
-              <li>25 St&uuml;ck</li>
-              <li>Korn 80</li>
-              <li>Profiqualit&auml;t</li>
-            </ul>
-            <a class="btn" href="https://www.amazon.de/St%C3%BCck-Klett-Schleifdreiecke-93x93x93-K%C3%B6rnung-Delta-Schleifer/dp/B01NCJA4WF/ref=sr_1_2?ie=UTF8&qid=1509398588&sr=8-2&keywords=FD-Workstuff%C2%AE" target="_blank"><img class="btn-amazon" src="img/amazon-btn-dark.png"> Zum Shop</a>
-            <a class="btn" href="https://www.amazon.de/St%C3%BCck-Klett-Schleifdreiecke-93x93x93-K%C3%B6rnung-Delta-Schleifer/dp/B01NCJA4WF/ref=sr_1_2?ie=UTF8&qid=1509398588&sr=8-2&keywords=FD-Workstuff%C2%AE" target="_blank"><img class="btn-ebay" src="img/ebay-btn.png"> Zum Shop</a>
-          </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-6 img-sale text-center">
+          <img src="img/Angebot.png" height="400px">
+        </div>
+        <div class="col-sm-6 sale">
+          <h3>Dreieicksschleifer</h3>
+          <p>Unsere Dreiecksschleifer &uuml;berzeugen durch ihre hohe Qualit&auml;t und Langlebigkeit. Somit sind diese optimal für den professionellen Einsatz geeigent!</p>
+          <ul>
+            <li>25 St&uuml;ck</li>
+            <li>Korn 80</li>
+            <li>Profiqualit&auml;t</li>
+          </ul>
+          <a class="btn" href="https://www.amazon.de/St%C3%BCck-Klett-Schleifdreiecke-93x93x93-K%C3%B6rnung-Delta-Schleifer/dp/B01NCJA4WF/ref=sr_1_2?ie=UTF8&qid=1509398588&sr=8-2&keywords=FD-Workstuff%C2%AE" target="_blank"><img class="btn-amazon" src="img/amazon-btn-dark.png"> Zum Shop</a>
+          <a class="btn" href="https://www.amazon.de/St%C3%BCck-Klett-Schleifdreiecke-93x93x93-K%C3%B6rnung-Delta-Schleifer/dp/B01NCJA4WF/ref=sr_1_2?ie=UTF8&qid=1509398588&sr=8-2&keywords=FD-Workstuff%C2%AE" target="_blank"><img class="btn-ebay" src="img/ebay-btn.png"> Zum Shop</a>
         </div>
       </div>
     </div>
@@ -95,11 +93,10 @@
           #aab2bd Schrift auf #434a54 Grau Hintergrund
         -->
 
-        <!-- TODO Abstände verbessern -->
 
         <div class="col-sm-4">
           <div class="features-box-1">
-            <i class="material-icons">star</i>
+            <i class="material-icons sr-icons">star</i>
             <h4 class="features-box-heading">Profiqualit&auml;t</h4>
             <p class="text-muted">Profitieren Sie von einer herausragenden Qualit&auml;t und hoher Langlebigkeit!</p>
           </div>
@@ -107,7 +104,7 @@
 
         <div class="col-sm-4">
           <div class="features-box-2">
-            <i class="material-icons">local_shipping</i>
+            <i class="material-icons sr-icons">local_shipping</i>
             <h4 class="features-box-heading">Schnelle Lieferung</h4>
             <p class="text-muted">Vorräte aufgebraucht? Durch schnelle Lieferzeiten kein Problem! </p>
           </div>
@@ -115,7 +112,7 @@
 
         <div class="col-sm-4">
           <div class="features-box-3">
-            <i class="material-icons">chat</i>
+            <i class="material-icons sr-icons">chat</i>
             <h4 class="features-box-heading">Kundenservice</h4>
             <p class="text-muted">Sie haben Fragen zu einem Produkt oder einer Bestellung? Bei uns erhalten Sie schnell eine Antwort!</p>
           </div>
@@ -209,7 +206,6 @@
                 <a class="btn btn-product" href="https://www.amazon.de/St%C3%BCck-Schleifb%C3%A4nder-K%C3%B6rnung-Bandschleifer-Gewebe-Schleifb%C3%A4nder/dp/B071YHSRV6/ref=sr_1_10?ie=UTF8&qid=1509398418&sr=8-10&keywords=FD-Workstuff%C2%AE" target="_blank"><img class="btn-ebay-product" src="img/ebay-btn.png"> Zum Shop</a>
               </div>
             </div>
-
           </div>
         </div>
       </div>
@@ -217,9 +213,9 @@
 
 
 
-<!-- TODO Auf Amazon-Bewertungen anpassen -->
-<!-- TODO Ggf. Firmenkunden listen -->
-<!-- TODO Ggf. Sterne einfügen -->
+  <!-- TODO Auf Amazon-Bewertungen anpassen -->
+  <!-- TODO Ggf. Firmenkunden listen -->
+  <!-- TODO Ggf. Sterne einfügen -->
 
   <section class="bg-light" id="rating">
     <div class="container">
@@ -285,14 +281,9 @@
                 </div>
               </div>
             </div>
-
           </div>
         </div>
-        <!-- end Col -->
-
       </div>
-      <!-- end row -->
-
     </div>
   </section>
 
@@ -331,6 +322,8 @@
       <div class="row">
         <div class="col-lg-8 mx-auto text-center">
           <h2 class="section-heading">FAQ</h2>
+          <!-- TODO Icon anpassen -->
+          <i class="material-icons">help</i>
           <hr class="light" />
 
           <div id="faqAccordion" data-children=".item">
@@ -374,10 +367,7 @@
                 <p class="answer">Wenden Sie sich bitte &uuml;ber das Kontaktformular an uns.</p>
               </div>
             </div>
-
-
           </div>
-
         </div>
       </div>
     </div>
@@ -443,17 +433,12 @@
       </div>
     </div>
   </section>
-
-
-
-
-
   </div>
   </section>
 
 
 
-<!-- TODO Footer anpassen -->
+  <!-- TODO Footer anpassen -->
 
   <footer class="footer">
     <div class="container">
@@ -465,7 +450,7 @@
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
-<script src="js/scrollreveal.js"></script>
+<script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
 <script src="js/creative.js"></script>
 
 </html>
