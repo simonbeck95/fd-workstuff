@@ -34,14 +34,14 @@
   var navbarCollapse = function() {
     if ($("#mainNav").offset().top > 100) {
       $("#mainNav").addClass("navbar-shrink");
-      document.getElementById("brand-img").src = "../img/logo-shrink.png";
+      document.getElementById("brand-img").src = "img/logo-shrink.png";
     } else {
       $("#mainNav").removeClass("navbar-shrink");
       // Changes the logo depending of the device size
       if (width < 992) {
-        document.getElementById("brand-img").src = "../img/logo-shrink.png";
+        document.getElementById("brand-img").src = "img/logo-shrink.png";
       } else {
-        document.getElementById("brand-img").src = "../img/logo-normal.png";
+        document.getElementById("brand-img").src = "img/logo-normal.png";
       };
     }
   };
