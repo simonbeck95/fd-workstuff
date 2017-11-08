@@ -236,9 +236,6 @@ body {
   }
   #mainNav .navbar-brand {
     color: rgba(255, 255, 255, 0.7);
-    background-image: url(img/header.png);
-    background-repeat: no-repeat;
-    background-position: 100px 50%;
     height: 50px;
   }
   #mainNav .navbar-brand img {
