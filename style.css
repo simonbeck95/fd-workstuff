@@ -587,9 +587,6 @@ div#sib_embed_signup div.message_area button.close {position: absolute;right: 8p
 .sms_field .country-block{margin-right: 3px !important;float: left;width:56px;}
 .icon-arrow{display: inline-block;width:0px;height: 0px;margin-left:2px;margin-top:5px;border-top:4px dashed;border-right:4px solid transparent;border-left:4px solid transparent;vertical-align: text-top;}
 .sib-dropdown-toggle.country-flg{display: inline-block;font-size: 13px;}
-body {background-Image: url('');}
-body {background-color: #dcdcdc;}
-div#sib_embed_signup .sib-container {background: rgba(252,252,252,1);}
 div#sib_embed_signup .sib-container h1 {font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;}
 div#sib_embed_signup h1.title {font-size: 45px;}
 div#sib_embed_signup .sib-container .forms-builder-footer, div#sib_embed_signup .sib-container .description, div#sib_embed_signup .sib-container .fake-label, div#sib_embed_signup .sib-container .row, div#sib_embed_signup .sib-container #company-name{font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;}
