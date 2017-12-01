@@ -1,0 +1,72 @@
+<!-- TODO Anmeldebutton neu ausrichten -->
+<section class="" id="newsletter">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 mx-auto text-center">
+        <h2 class="section-heading">Newsletter</h2>
+        <hr class="dark" />
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-8 mx-auto text-center">
+        <p>
+          Melden Sie sich für unseren Newsletter an und erhalten Sie exklusive Angebote und Neuigkeiten!
+        </p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-8 mx-auto text-center">
+
+        <div id="sib_embed_signup" style="padding: 10px;">
+          <div class="forms-builder-wrapper" style="position:relative;margin-left: auto;margin-right: auto;">
+            <input type="hidden" id="sib_embed_signup_lang" value="de">
+            <input type="hidden" id="sib_embed_invalid_email_message" value="Diese E-Mail-Adresse ist nicht gültig. ">
+            <input type="hidden" name="primary_type" id="primary_type" value="email">
+            <div id="sib_loading_gif_area" style="position: absolute;z-index: 9999;display: none;">
+              <img src="https://my.sendinblue.com/public/theme/version4/assets/images/loader_sblue.gif" style="display: block;margin-left: auto;margin-right: auto;position: relative;top: 40%;">
+            </div>
+            <form class="description" id="theform" name="theform" action="https://my.sendinblue.com/users/subscribeembed/js_id/2x2q4/id/1" onsubmit="return false;">
+              <input type="hidden" name="js_id" id="js_id" value="2x2q4"><input type="hidden" name="listid" id="listid" value="2"><input type="hidden" name="from_url" id="from_url" value="yes"><input type="hidden" name="hdn_email_txt" id="hdn_email_txt"
+                value="">
+              <div class="sib-container rounded">
+
+                <input type="hidden" name="req_hid" id="req_hid" value="~Captcha" style="font-size: 13px;">
+                <div class="header" style="padding:0 20px;">
+                  <h1 class="title editable" data-editfield="newsletter_name" style="font-weight: normal; text-align: left; font-size: 45px; margin-bottom: 2px; padding: 0px; margin-top: 0px; color: rgb(35, 35, 35); display: none;">Mein Newsletter </h1>
+                  <h3 id="company-name" style="font-weight: normal; text-align: left; font-size: 25px; margin-bottom: 12px; padding: 0px; margin-top: 0px; color: rgb(52, 52, 52); display: none;">durch </h3>
+                </div>
+                <div class="description editable" data-editfield="newsletter_description" style="padding: 0px 20px 15px; border-bottom: 1px solid rgb(204, 204, 204); color: rgb(52, 52, 52); font-size: 17px; display: none;">Welchen Inhalt möchten Sie mit Ihren Kontakten teilen? </div>
+                <div class="view-messages" style=" margin:5px 0;"> </div>
+                <!-- an email as primary -->
+                <div class="primary-group email-group forms-builder-group ui-sortable" style="">
+                  <div class="row mandatory-email" style="padding: 10px 20px; position: relative;color: rgb(52, 52, 52); font-size: 17px;">
+                    <div class="lbl-tinyltr" style="clear: both; float: none;">Geben Sie Ihre E-Mail-Adresse ein, um sich anzumelden.
+                      <red style="color:#ff0000;">*</red>
+                    </div>
+                    <input type="text" name="email" id="email" value="" style="padding: 10px 2%; width: 90%; min-width: auto;">
+                    <div style="clear:both;"></div>
+                    <div class="hidden-btns">
+                      <a class="btn move" href="#"><i class="fa fa-arrows"></i></a><br>
+                      <!--<a class="btn btn-danger delete"  href="#"><i class="fa fa-trash-o fa-inverse"></i></a>-->
+                    </div>
+                  </div>
+
+                </div>
+                <div class="captcha forms-builder-group">
+                  <div class="row" style="color: rgb(52, 52, 52); font-size: 17px; padding: 10px 20px;">
+                    <div id="gcaptcha" style="transform: scale(1); margin-left: 0px;"></div>
+                  </div>
+                </div>
+
+                <!-- end of primary -->
+                <div class="byline" style="color: rgb(52, 52, 52); font-weight: bold; font-size: 16px; text-align: center; display: block;">
+                  <button class="button editable " type="submit" data-editfield="subscribe" style="color: rgb(255, 255, 255); background: rgb(5, 5, 5); display: inline-block; white-space: nowrap; min-height: 40px; margin: 0px 5px 0px 0px; padding: 0px 22px; text-decoration: none; text-transform: uppercase; text-align: center; font-weight: bold; font-style: normal; font-size: 14px; cursor: pointer; border: 0px; border-radius: 4px; vertical-align: top; height: auto; line-height: 150%;">Anmelden </button></div>
+                <div style="clear:both;"></div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

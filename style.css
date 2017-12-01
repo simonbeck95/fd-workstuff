@@ -185,6 +185,7 @@ body {
   text-transform: uppercase;
   color: #3498db;
   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+  margin-right: auto !important;
 }
 
 #mainNav .navbar-brand img {
@@ -231,6 +232,7 @@ body {
   #mainNav .navbar-brand {
     color: rgba(255, 255, 255, 0.7);
     height: 50px;
+    margin-right: auto !important;
   }
   #mainNav .navbar-brand img {
     height: 70px;
@@ -479,7 +481,7 @@ header.topheader .header-content .header-content-inner p {
     background-image: url("img/parallax.jpg");
 
     /* Full height */
-    height: 100%;
+    height: 65%;
 
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
@@ -488,9 +490,6 @@ header.topheader .header-content .header-content-inner p {
     background-size: cover;
 }
 }
-
-
-
 
 .testimonial-description {
   margin-top: 50px;
