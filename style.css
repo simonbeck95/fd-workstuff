@@ -31,6 +31,12 @@ hr.dark {
   border-color: #222222;
 }
 
+hr.footer {
+  border-color: #e6e9ed;
+  max-width: 500px;
+  border-width: 1px;
+}
+
 p {
   font-size: 16px;
   line-height: 1.5;
@@ -50,17 +56,17 @@ p {
 }
 
 .bg-dark {
-  color: white;
-  background-color: #323232 !important;
+  color: #e6e9ed;
+  background-color: #434a54 !important;
 }
 
-.bg-dark2 {
-  color: #e6e9ed;
+.bg-footer {
   background-color: #434a54;
+  padding: 1px;
 }
 
 .bg-light {
-  background-color: #ecf0f1 !important;
+  background-color: #F2F1EF !important;
 }
 
 .sale {
@@ -586,6 +592,10 @@ header.topheader .header-content .header-content-inner p {
   color: white;
 }
 
+#faqAccordion .email a {
+  font-size: 16px;
+}
+
 .question {
   text-transform: uppercase;
   color: #e6e9ed;
@@ -608,8 +618,10 @@ header.topheader .header-content .header-content-inner p {
 
 /* Footer */
 
+.hr-footer {
+  background-color:
+}
 .footer-basic-centered{
-	background-color: #292c2f;
 	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
 	box-sizing: border-box;
 	width: 100%;
