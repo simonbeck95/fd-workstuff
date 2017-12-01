@@ -477,7 +477,7 @@ header.topheader .header-content .header-content-inner p {
 
 /* ------ Testimonals ------ */
 
-@media (min-width: 992px) {
+@media (min-width: 1200px) {
 .parallax {
     /* The image used */
     background-image: url("img/parallax.jpg");
