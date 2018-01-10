@@ -74,12 +74,32 @@ p {
   width: auto;
 }
 
+.img-amazon-logo img {
+  width: 250px;
+}
+
+.img-ebay-logo img {
+  width: 150px;
+  padding-top: 50px;
+}
+
+
 @media (min-width: 576px) {
   .img-sale img {
     padding-top: 120px;
     margin-left: -50px;
     height: 400px;
     width: auto;
+  }
+
+  .img-amazon-logo img {
+    width: 220px;
+    padding-top: 15px;
+  }
+
+  .img-ebay-logo img {
+    width: 150px;
+    padding-top: 0px !important;
   }
 }
 
@@ -89,6 +109,16 @@ p {
     height: 400px;
     width: auto;
   }
+
+  .img-amazon-logo img {
+    width: 300px;
+    padding-top: 25px;
+  }
+
+  .img-ebay-logo img {
+    width: 200px;
+    padding-top: 0px !important;
+  }
 }
 
 @media (min-width: 992px) {
@@ -96,7 +126,17 @@ p {
     height: 400px;
     width: auto;
   }
+
+  .img-amazon-logo img {
+    width: 400px;
+    padding-top: 15px !important;
+  }
+
+  .img-ebay-logo {
+    padding-top: 0px !important;
+  }
 }
+
 
 @media (min-width: 1200px) {}
 
@@ -474,23 +514,20 @@ header.topheader .header-content .header-content-inner p {
   }
 }
 
-
 /* ------ Testimonals ------ */
 
 @media (min-width: 992px) {
-.parallax {
+  .parallax {
     /* The image used */
     background-image: url("img/parallax.jpg");
-
     /* Full height */
-    height: 65%;
-
+    height: 80%;
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-}
+  }
 }
 
 .testimonial-description {
@@ -611,74 +648,67 @@ header.topheader .header-content .header-content-inner p {
   text-decoration: none;
 }
 
-
 /* Footer */
 
 .hr-footer {
   background-color:
 }
-.footer-basic-centered{
-	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
-	box-sizing: border-box;
-	width: 100%;
-	text-align: center;
-	font-size: 18px;
 
-	padding: 45px;
+.footer-basic-centered {
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+  box-sizing: border-box;
+  width: 100%;
+  text-align: center;
+  font-size: 18px;
+  padding: 45px;
 }
 
-.footer-basic-centered .footer-company-name{
-	color:  #8f9296;
-	font-size: 14px;
-	margin: 0;
+.footer-basic-centered .footer-company-name {
+  color: #8f9296;
+  font-size: 14px;
+  margin: 0;
 }
 
-.footer-basic-centered .footer-links{
+.footer-basic-centered .footer-links {
   font-size: 13px;
   font-weight: 700;
   text-transform: uppercase;
-	list-style: none;
-	color:  #ffffff;
-	padding: 35px 0 23px;
-	margin: 0;
+  list-style: none;
+  color: #ffffff;
+  padding: 35px 0 23px;
+  margin: 0;
 }
 
 .footer-links a {
   padding: 0 .3rem;
 }
 
-.footer-basic-centered .footer-links a{
-	display:inline-block;
-	text-decoration: none;
-	color: inherit;
+.footer-basic-centered .footer-links a {
+  display: inline-block;
+  text-decoration: none;
+  color: inherit;
 }
 
 /* If you don't want the footer to be responsive, remove these media queries */
 
 @media (max-width: 600px) {
-
-	.footer-basic-centered{
-		padding: 35px;
-	}
-
-	.footer-basic-centered .footer-company-motto{
-		font-size: 18px;
-	}
-
-	.footer-basic-centered .footer-company-name{
-		font-size: 12px;
-	}
-
-	.footer-basic-centered .footer-links{
-		font-size: 14px;
-		padding: 25px 0 20px;
-	}
-
-	.footer-basic-centered .footer-links a{
-		line-height: 1.8;
-	}
+  .footer-basic-centered {
+    padding: 35px;
+  }
+  .footer-basic-centered .footer-company-motto {
+    font-size: 18px;
+  }
+  .footer-basic-centered .footer-company-name {
+    font-size: 12px;
+  }
+  .footer-basic-centered .footer-links {
+    font-size: 14px;
+    padding: 25px 0 20px;
+  }
+  .footer-basic-centered .footer-links a {
+    line-height: 1.8;
+  }
 }
-
 
 /* Google ReCaptcha */
 
@@ -910,4 +940,27 @@ div#sib_embed_signup input[type=number] {
   padding: 10px 4px;
   width: 100% !important;
   box-sizing: border-box;
+}
+
+/** Cookie Info */
+
+.cc_container .cc_btn {
+  background-color: #e4e4e4 !important;
+  /* Farbe des Buttons */
+  color: #000 !important;
+  /* Textfarbe des Buttons */
+  max-width: 150px !important;
+}
+
+.cc_container {
+  background: #1f6888 !important;
+  /* Hintergrundfarbe des gesamten Bereichs */
+  color: #fdfdfd !important;
+  /* Schriftfarbe des gesamten Bereichs */
+  font-family: 'Roboto', sans-serif;
+}
+
+.cc_container a {
+  color: #31a8f0 !important;
+  /* Textlink-Farbe "Mehr Infos" */
 }
