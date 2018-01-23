@@ -83,6 +83,11 @@ p {
   padding-top: 50px;
 }
 
+.angebot-preis {
+  font-size: 20pt;
+  margin-top: 20px;
+}
+
 
 @media (min-width: 576px) {
   .img-sale img {
