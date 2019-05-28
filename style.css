@@ -5,8 +5,7 @@
 /* TODO Untergliedern und aufräumen */
 
 body, html {
-  width: 100%;
-  height: 100%;
+  overflow-x: hidden;
 }
 
 h2 {
@@ -342,28 +341,54 @@ body {
   }
 }
 
-header.topheader {
-  position: relative;
-  width: 100%;
-  min-height: auto;
-  text-align: center;
-  color: white;
-  background-image: url("img/header.jpg");
-  background-position: center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+
+/* HEADER */
+
+.v-header {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  color: #fff;
 }
 
-header.topheader .header-content {
-  position: relative;
-  width: 100%;
-  padding: 150px 15px 100px;
+.v-container {
+  max-width: 960px;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin: auto;
   text-align: center;
 }
 
-header.topheader .header-content .header-content-inner h1 {
+.fullscreen-video-wrap {
+  position: absolute;
+  top:0;
+  left:0;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.fullscreen-video-wrap video {
+  min-width: 100%;
+  min-height: 100%;
+}
+
+.header-overlay {
+  height: 100vh;
+  width: 100vw;
+  position: absolute;
+  top:0;
+  left:0;
+  background:#225470;
+  z-index:1;
+  opacity: 0.5;
+}
+
+.header-content {
+  z-index: 2;
+}
+
+.header-content h1 {
   font-size: 30px;
   font-weight: 700;
   margin-top: 0;
@@ -371,45 +396,31 @@ header.topheader .header-content .header-content-inner h1 {
   text-transform: uppercase;
 }
 
-header.topheader .header-content .header-content-inner hr {
-  margin: 30px auto;
-}
-
-header.topheader .header-content .header-content-inner p {
-  font-size: 16px;
-  font-weight: 300;
-  margin-bottom: 50px;
-  color: rgba(255, 255, 255, 0.7);
+.header-content a:hover {
+  color: #bdc3c7;
 }
 
 @media (min-width: 768px) {
-  header.topheader {
-    height: 100%;
-    min-height: 600px;
-  }
-  header.topheader .header-content {
-    position: absolute;
-    top: 50%;
-    padding: 0 50px;
-    -webkit-transform: translateY(-50%);
-    -ms-transform: translateY(-50%);
-    transform: translateY(-50%);
-  }
-  header.topheader .header-content .header-content-inner {
-    max-width: 1000px;
-    margin-right: auto;
-    margin-left: auto;
-  }
-  header.topheader .header-content .header-content-inner h1 {
+  .header-content h1 {
     font-size: 50px;
+    font-weight: 700;
+    margin-top: 0;
+    margin-bottom: 0;
+    text-transform: uppercase;
   }
-  header.topheader .header-content .header-content-inner p {
-    font-size: 18px;
-    max-width: 80%;
-    margin-right: auto;
-    margin-left: auto;
+
+  .header-content a:hover {
+    color: #bdc3c7;
   }
 }
+
+
+
+
+
+
+
+
 
 .call-to-action {
   padding: 50px 0;
@@ -452,10 +463,6 @@ header.topheader .header-content .header-content-inner p {
 
 .signup .btn {
   border: 1px solid #ced4da;
-}
-
-.topheader a:hover {
-  color: #bdc3c7;
 }
 
 .product-footer a:hover {
