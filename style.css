@@ -84,7 +84,7 @@ p {
 }
 
 .meinEinkauf-logo img {
-  width: 400px;
+  width: 200px;
 }
 
 .angebot-preis {
@@ -110,6 +110,10 @@ p {
     width: 150px;
     padding-top: 0px !important;
   }
+
+  .meinEinkauf-logo img {
+    width: 200px;
+  }
 }
 
 @media (min-width: 768px) {
@@ -128,6 +132,10 @@ p {
     width: 200px;
     padding-top: 0px !important;
   }
+
+  .meinEinkauf-logo img {
+    width: 400px;
+  }
 }
 
 @media (min-width: 992px) {
@@ -143,6 +151,10 @@ p {
 
   .img-ebay-logo {
     padding-top: 0px !important;
+  }
+
+  .meinEinkauf-logo img {
+    width: 400px;
   }
 }
 
