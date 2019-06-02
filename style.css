@@ -138,6 +138,12 @@ p {
   border-top: 1px solid #eee;
 }
 
+.card-product .info-wrap .description {
+  font-size: 0.75rem;
+  margin-bottom: 10px;
+}
+
+
 .card-product:hover .btn-overlay {
   opacity: 1;
 }
@@ -156,13 +162,36 @@ p {
   position: relative;
 }
 
-
 .card .img-wrap {
   overflow: hidden;
 }
 
-.price-new, .price {
+.price {
   margin-right: 5px;
+  color: #7ab314;
+  font-weight: 600;
+    font-size: 1.3rem;
+    margin-bottom: 0;
+    font-weight: bold;
+    font-size: 20px !important;
+    right: 0px;
+    line-height: 0px;
+}
+
+.price-hint {
+  color: #9fa2a5;
+  font-size: 0.5rem;
+  line-height: 0px;
+  margin-bottom: 10px;
+
+}
+
+.price-wrap .prime{
+  height: 15px;
+  width: 60px;
+  background: url(/img/icon-prime.png) no-repeat center center;
+  background-size: 53px 15px;
+  display: inline-block;
 }
 
 @media (min-width: 576px) {
@@ -602,13 +631,6 @@ body {
   margin-left: auto;
 }
 
-.price {
-  font-weight: bold;
-  font-size: 20px !important;
-  position: absolute;
-  padding-right: 30px;
-  right: 0px;
-}
 
 .price p {
   font-size: 20px;
