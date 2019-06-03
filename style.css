@@ -189,7 +189,7 @@ p {
 .price-wrap .prime{
   height: 15px;
   width: 60px;
-  background: url(/img/icon-prime.png) no-repeat center center;
+  background: url(img/icon-prime.png) no-repeat center center;
   background-size: 53px 15px;
   display: inline-block;
 }
