@@ -144,7 +144,6 @@ p {
   margin-bottom: 10px;
 }
 
-
 .card-product:hover .btn-overlay {
   opacity: 1;
 }
@@ -171,12 +170,12 @@ p {
   margin-right: 5px;
   color: #7ab314;
   font-weight: 600;
-    font-size: 1.3rem;
-    margin-bottom: 0;
-    font-weight: bold;
-    font-size: 20px !important;
-    right: 0px;
-    line-height: 0px;
+  font-size: 1.3rem;
+  margin-bottom: 0;
+  font-weight: bold;
+  font-size: 20px !important;
+  right: 0px;
+  line-height: 0px;
 }
 
 .price-hint {
@@ -184,10 +183,9 @@ p {
   font-size: 0.5rem;
   line-height: 0px;
   margin-bottom: 10px;
-
 }
 
-.price-wrap .prime{
+.price-wrap .prime {
   height: 15px;
   width: 60px;
   background: url(img/icon-prime.png) no-repeat center center;
@@ -455,7 +453,6 @@ body {
 
 /* HEADER */
 .v-header {
-  height: 100vh;
   display: flex;
   align-items: center;
   color: #fff;
@@ -469,30 +466,50 @@ body {
   text-align: center;
 }
 
-.fullscreen-video-wrap {
+@media (min-width: 992px) {
+  .v-header {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    color: #fff;
+  }
+
+  .fullscreen-video-wrap {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+  }
+
+  .fullscreen-video-wrap video {
+    min-width: 100%;
+    min-height: 100%;
+  }
+
+  .header-overlay {
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #225470;
+    z-index: 1;
+    opacity: 0.5;
+  }
+}
+
+.fullscreen-video-wrap video{
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
-  height: 100vh;
+  height: auto;
   overflow: hidden;
 }
 
-.fullscreen-video-wrap video {
-  min-width: 100%;
-  min-height: 100%;
-}
 
-.header-overlay {
-  height: 100vh;
-  width: 100vw;
-  position: absolute;
-  top: 0;
-  left: 0;
-  background: #225470;
-  z-index: 1;
-  opacity: 0.5;
-}
 
 .header-content {
   z-index: 2;
@@ -631,7 +648,6 @@ body {
   font-weight: normal;
   margin-left: auto;
 }
-
 
 .price p {
   font-size: 20px;
