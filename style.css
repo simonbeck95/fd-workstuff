@@ -523,11 +523,19 @@ body {
     opacity: 0.5;
   }
 
+  .header-haendlerbundLogo img {
+    width: 60px;
+  }
 }
 
 .header-content {
   z-index: 2;
   margin-top: 120px;
+}
+
+.header-haendlerbundLogo {
+  margin-top: 87vh;
+  margin-left: 72vw;
 }
 
 .header-content h1 {
