@@ -498,6 +498,10 @@ body {
     z-index: 1;
     opacity: 0.5;
   }
+
+  .header-content {
+    margin-left: -60px;
+  }
 }
 
 
