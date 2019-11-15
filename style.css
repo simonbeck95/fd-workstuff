@@ -467,10 +467,9 @@ body {
 }
 
 .v-container {
-  max-width: 960px;
   padding-left: 1rem;
   padding-right: 1rem;
-  margin: auto;
+  margin: 0 auto;
   text-align: center;
 }
 
@@ -507,9 +506,7 @@ body {
     opacity: 0.5;
   }
 
-  .header-content {
-    margin-left: -60px;
-  }
+
 }
 
 
@@ -542,6 +539,8 @@ body {
 
 .header-content {
   z-index: 2;
+  position:relative;
+  margin: 0 auto;
   margin-top: 120px;
 }
 
@@ -576,6 +575,10 @@ body {
   }
 }
 
+
+.cc-window {
+  z-index: 3;
+}
 .call-to-action {
   padding: 50px 0;
 }
